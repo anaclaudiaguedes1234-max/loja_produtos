@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Essência Natural</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <h1 class="cabecalhoTitulo"><strong>Essência Natural</strong></h1>
+
+        <div class="carrinho" id="abrirCarrinho">
+    <span>🛒</span>
+    <span id="contadorCarrinho">0</span>
+        </div>
+    </header>
+    <main class="principal">
+        <!--Banner-->
+        <section class="banner">
+            <div class="bannerConteudo">
+                <h2>Beleza e cuidado em cada detalhe</h2>
+                <p>Produtos selecionados da Natura para valorizar sua rotina com cuidado e carinho </p>
+            </div>
+        </section>    
+    
+        <!--Produtos-->
+        <section class="produtos">
+        <h3>Nossos Produtos</h3>
+        <div id="listaProdutos">
+
+        </div>
+        </section>
+        <!--sobre-->
+        <section class="sobre">
+            <div class="sobreConteudo">
+                <h4>Sobre Nós</h4>
+                <p>
+                Trabalhamos com produtos selecionados da Natura,
+                 trazendo qualidade, cuidado e bem-estar para o seu dia a dia.
+                </p>
+            </div>
+        </section>
+        <!--contato-->
+        <section class="contato">
+            <div class="contatoConteudo">
+                <h4>Contato</h4>
+                <p>
+                    Entre em contato conosco e descubra como podemos ajudar você a se sentir bem e se cuidar.
+                </p>
+            </div>
+        </section>
+              
+    </main>
+    <footer class="rodape">
+        <div class="rodapeLocation">Brasil</div>
+        <ul class="rodapeLinks">
+            <li><a href="https://github.com/anaclaudiaguedes1234-max" target="_blank">github</a></li>
+            <li><a href="https://www.linkedin.com/in/ana-claudia-dos-santos-guedes-71b762196/?skipRedirect"
+                    target="_blank">linkedin</a></li>
+            <li><a href="https://wa.me/5535991034070" target="_blank">WhatsApp</a></li>
+                
+        </ul>
+    </footer>
+ <div id="painelCarrinho" class="painelCarrinho">
+
+    <button id="fecharCarrinho" class="fecharCarrinho">
+        ✖
+    </button>
+
+    <h3>Meu Carrinho</h3>
+    <div id="itensCarrinho"></div>
+    <p>
+        total: R$
+        <span id="totalCarrinho">0.00</span>
+    </p>
+    <button id="finalizarPedido">
+        Finalizar Pedido
+    </button>
+</div>
+    <script src="produtos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
